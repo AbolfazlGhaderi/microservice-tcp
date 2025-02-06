@@ -161,6 +161,7 @@ dist
 
 # ENV
 .env
+/*/.env
 
 # Public
 public/

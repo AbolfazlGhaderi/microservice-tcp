@@ -9,13 +9,10 @@
     "quoteProps": "consistent",
     "trailingComma": "es5",
     "singleAttributePerLine": false,
-    "htmlWhitespaceSensitivity": "css",
-    "vueIndentScriptAndStyle": false,
     "proseWrap": "preserve",
     "insertPragma": false,
     "requirePragma": false,
     "useTabs": false,
-    "embeddedLanguageFormatting": "auto",
     "tabWidth": 4,
     "printWidth": 100
   }
