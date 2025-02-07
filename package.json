@@ -5,7 +5,9 @@
   "main": "index.js",
   "author": "Abolfazl Ghaderi <abolfazlghaderi.ir>",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint:f": "pnpm --prefix task run lint:f && pnpm --prefix user run lint:f && pnpm --prefix token run lint:f && pnpm --prefix gateway run lint:f && pnpm --prefix mailer run lint:f && pnpm --prefix permission run lint:f",
+    "lint:nf": "pnpm --prefix task run lint:nf && pnpm --prefix user run lint:f && pnpm --prefix token run lint:f && pnpm --prefix gateway run lint:f && pnpm --prefix mailer run lint:f && pnpm --prefix permission run lint:f",
+    "start": "pnpm --prefix geteway run start:dev"
   },
   "repository": {
     "type": "git",
